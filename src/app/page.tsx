@@ -17,12 +17,12 @@ export default function Home() {
           >
             By{' '}
             <Image
+              priority
               src="/vercel.svg"
               alt="Vercel Logo"
               className="dark:invert"
-              width={100}
               height={24}
-              priority
+              width={100}
             />
           </a>
         </div>
